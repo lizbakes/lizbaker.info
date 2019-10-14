@@ -1,8 +1,8 @@
 body {
   font-family: 'Open Sans', serif;
   padding-top: 54px;
-  color: #252536;
-  background: #9999C3 !important;
+  color: #d1bfa7;  /* body text color */
+  background: #49494b !important; /* body background color */
 }
 
 @media (min-width: 992px) {
@@ -13,15 +13,28 @@ body {
 }
 
 h1,
-h2,
+h2
+{
+  font-family: 'Saira Extra Condensed', serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #b99d79;
+}
+
 h3,
-h4,
-h5,
+h4
+{
+  font-family: 'Saira Extra Condensed', serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #bd8c7d;
+}
+
 h6 {
   font-family: 'Saira Extra Condensed', serif;
   font-weight: 700;
   text-transform: uppercase;
-  color: #CBCBE5;
+  color: #bd8c7d;
 }
 
 h1 {
@@ -41,11 +54,11 @@ h2 {
 }
 
 .list-social-icons a {
-  color: #252536;
+  color: #C2b490;
 }
 
 .list-social-icons a:hover {
-  color: #252536;
+  color: #C2b490;
 }
 
 .list-social-icons a .fa-lg {
@@ -57,12 +70,25 @@ h2 {
 }
 
 .list-icons .list-inline-item i:hover {
-  color: #252536;
+  color: #C2b490;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 600;
   text-transform: uppercase;
+}
+
+.bio-mb-5 {
+    margin-bottom: 1rem!important;
+}
+
+.caption-background {
+  background-color: rgba(0,0,0,0.6);
+  display: table; /* keep the background color wrapped tight */
+  margin: 0px auto 0px auto; /* keep the table centered */
+  padding:5px;font-size:20px;
+  font-weight: 300;
+  font-size: 1rem;
 }
 
 @media (min-width: 992px) {
@@ -103,6 +129,10 @@ h2 {
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
     display: block;
   }
+
+  .navbar-dark .navbar-nav .nav-link {
+    color: rgba(142,142,144);
+  }
 }
 
 section.resume-section {
@@ -132,21 +162,21 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #CBCBE5 !important;
+  background-color: #d1bfa7 !important;
 }
 
 .text-primary {
-  color: #252536 !important;
+  color: #d1bfa7 !important;
 }
 
 a {
-  color: #CBCBE5;
+  color: #C2b490;
 }
 
 a:hover, a:focus, a:active {
-  color: #2C3640;
+  color: #bd8c7d;
 }
 
 .figure-caption {
-  color: #252536 !important;
+  color: #bd8c7d !important;
 }
